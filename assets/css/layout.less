@@ -1,0 +1,31 @@
+@import "library.less";
+
+html * {
+    outline: 0 !important;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    -wenkit-font-smoothing: subpixel-antialiased;
+}
+
+body {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: @font-size;
+    color: @text-color;
+    background-color: #fff;
+    font-family: @font-family;
+}
+
+a {
+    .transition(all 0.3s ease);
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+    }
+}

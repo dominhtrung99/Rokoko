@@ -1,0 +1,55 @@
+
+/*----------  0.1. Color  ----------*/
+@text-color: #fff;
+@title-color: #ffcc44;
+@main-color: #e63024;
+
+
+/*----------  0.2. Font  ----------*/
+@font-face {
+    font-family: "UTM-Avo";
+    src: url("../fonts/UTM-Avo.eot?") format("eot"),
+    url("../fonts/UTM-Avo.woff") format("woff"),
+    url("../fonts/UTM-Avo.ttf") format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "UTM-Avo";
+    src: url("../fonts/UTM-AvoBold.eot?") format("eot"),
+    url("../fonts/UTM-AvoBold.woff") format("woff"),
+    url("../fonts/UTM-AvoBold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-family: 'UTM-Avo';
+@font-family-2: 'Open Sans', sans-serif;
+@font-family-3: 'Great Vibes', cursive;
+@font-family-4: 'Lora', serif;
+@font-size: 16px;
+
+
+.circle(@param) {
+    border-radius: @param;
+    -webkit-border-radius: @param;
+    -moz-border-radius: @param;
+}
+
+.transition(@param) {
+    transition: @param;
+    -webkit-transition: @param;
+    -moz-transition: @param;
+    -o-transition: @param;
+}
+
+.l-height(@param) {
+    height: @param;
+    line-height: @param;
+}
+
+.transform(@param) {
+    transform: @param;
+    -webkit-transform: @param;
+    -moz-transform: @param;
+    -ms-transform: @param;
+    -o-transform: @param;
+}
