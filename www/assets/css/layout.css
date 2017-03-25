@@ -3,12 +3,19 @@
 @font-face {
   font-family: "UTM-Avo";
   src: url("../fonts/UTM-Avo.eot?") format("eot"), url("../fonts/UTM-Avo.woff") format("woff"), url("../fonts/UTM-Avo.ttf") format("truetype");
-  font-weight: bold;
 }
 @font-face {
   font-family: "UTM-Avo";
   src: url("../fonts/UTM-AvoBold.eot?") format("eot"), url("../fonts/UTM-AvoBold.woff") format("woff"), url("../fonts/UTM-AvoBold.ttf") format("truetype");
   font-weight: bold;
+}
+@font-face {
+  font-family: "georgia";
+  src: url("../fonts/georgia.eot?") format("eot"), url("../fonts/georgia.woff") format("woff"), url("../fonts/georgia.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GreatVibes";
+  src: url("../fonts/GreatVibes.eot?") format("eot"), url("../fonts/GreatVibes.woff") format("woff"), url("../fonts/GreatVibes.ttf") format("truetype");
 }
 html * {
   outline: 0 !important;
@@ -38,6 +45,9 @@ a:hover,
 a:active,
 a:focus {
   text-decoration: none;
+}
+.main-right {
+  float: right;
 }
 /********* HEADER ********/
 .wrapper-header {
@@ -80,21 +90,21 @@ a:focus {
 .content-header-social .wrapper-form-search .btn-search i {
   font-size: 12px;
 }
-.content-header-social .wrapper-social {
+.wrapper-social {
   display: inline-block;
   margin-bottom: 0;
 }
-.content-header-social .wrapper-social li {
+.wrapper-social li {
   margin-right: 10px;
   cursor: pointer;
 }
-.content-header-social .wrapper-social li:last-child {
+.wrapper-social li:last-child {
   margin-right: 0;
 }
-.content-header-social .wrapper-social li:hover a {
+.wrapper-social li:hover a {
   color: #ffcc44;
 }
-.content-header-social .wrapper-social a {
+.wrapper-social a {
   line-height: 35px;
   color: #fff;
   font-size: 14px;
@@ -115,6 +125,7 @@ a:focus {
   display: table;
   width: 100%;
   text-align: center;
+  height: 100%;
 }
 .wrapper-logo .links-logo {
   display: table-cell;
@@ -141,7 +152,7 @@ a:focus {
   color: #3c3c3c;
   font-weight: bold;
   padding: 0 25px;
-  line-height: 85px;
+  line-height: 80px;
   position: relative;
 }
 .menu-wrapper .menu-item a:hover,
@@ -161,7 +172,7 @@ a:focus {
   background-color: #e63024;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -5px;
   margin-left: auto;
   margin-right: auto;
   transition: all 0.5s ease;
@@ -175,4 +186,172 @@ a:focus {
 }
 .menu-wrapper.menu-wrapper-right {
   margin-left: 80px;
+}
+/******** FOOTER ********/
+.section-footer {
+  padding: 40px 0 30px;
+  background-color: #313131;
+}
+.main-footer {
+  margin-bottom: 30px;
+}
+.main-footer:last-child {
+  margin-bottom: 0;
+}
+.main-footer .title-footer {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'georgia';
+  margin-top: 0;
+  font-size: 16px;
+}
+.main-footer .list-text-footer {
+  margin-bottom: 0;
+}
+.main-footer .list-text-footer li {
+  margin-bottom: 5px;
+}
+.main-footer .list-text-footer li:last-child {
+  margin-bottom: 0;
+}
+.main-footer .list-text-footer li .text,
+.main-footer .list-text-footer li .links {
+  font-size: 14px;
+  color: #898989;
+  font-weight: 400;
+  font-family: 'georgia';
+  display: inline-block;
+  margin-bottom: 0;
+}
+.main-footer .list-text-footer li .text {
+  padding-right: 5px;
+}
+.main-footer .list-text-footer li .text .icons {
+  color: #fff;
+  padding-right: 10px;
+}
+.main-footer .list-text-footer li .links:hover {
+  color: #e63024;
+}
+.main-footer .list-text-footer li .links-color {
+  color: #e63024;
+}
+.main-footer .list-text-footer .wp-links-email {
+  position: relative;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+.main-footer .list-text-footer .wp-links-email:before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 75px;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+}
+.main-footer .list-text-menu li:hover .links {
+  padding-left: 10px;
+}
+.main-footer .list-text-menu li .links {
+  text-transform: uppercase;
+}
+.main-footer .list-instagram {
+  font-size: 0;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.main-footer .list-instagram li {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+}
+.main-footer .list-instagram li:hover a:after {
+  height: 100%;
+}
+.main-footer .list-instagram li a {
+  position: relative;
+  width: 100%;
+  display: block;
+  border: 1px solid #313131;
+}
+.main-footer .list-instagram li a:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.main-footer .list-instagram li a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #e63024;
+  opacity: 0.5;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.main-footer .list-instagram li a img {
+  position: absolute;
+  max-width: none;
+  width: auto;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.main-footer .wrapper-social-footer .text {
+  font-size: 14px;
+  font-family: 'georgia';
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 0;
+}
+.main-footer .wrapper-social-footer .wrapper-social {
+  float: right;
+}
+.main-footer .wrapper-social-footer .wrapper-social li {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #f4f4f4;
+  text-align: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.main-footer .wrapper-social-footer .wrapper-social li:hover {
+  background-color: #e63024;
+  border-color: #e63024;
+}
+.main-footer .wrapper-social-footer .wrapper-social li:hover a {
+  color: #fff;
+}
+.main-footer .wrapper-social-footer .wrapper-social li a {
+  line-height: 30px;
+}
+.content-footer-text {
+  background-color: #000000;
+  line-height: 55px;
+}
+.content-footer-text .text {
+  font-size: 14px;
+  color: #fff;
+  font-family: 'georgia';
+  text-align: center;
+  margin-bottom: 0;
+}
+.content-footer-text .text a {
+  color: #e63024;
 }
