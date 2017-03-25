@@ -1,0 +1,26 @@
+.wrapper-header
+	.wrapper-logo
+		.content-logo
+			a.links-logo(href="#")
+				img.img-resposive(src="assets/images/logo/logo-header.png" alt="")
+	.content-header-social
+		.container
+			.main-header-social
+				.wrapper-form-search
+					form
+						input.input-search(type="text")
+						button.btn-search(type="submit")
+							i.icons-search.fa.fa-search
+				ul.list-inline.wrapper-social
+					li
+						a(href="#")
+							i.fa.fa-facebook
+					li
+						a(href="#")
+							i.fa.fa-twitter
+					li
+						a(href="#")
+							i.fa.fa-google-plus
+	.content-header-menu
+		.container
+			!= partial("menu")
