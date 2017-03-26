@@ -15,8 +15,19 @@
         "title": "Menu",
         "nav": "menu",
         "url_style": [
+            {               
+            }
+        ],
+        "url_script": [
             {
-                "src": "/assets/css/component-1.css"
+            }
+        ]
+    },
+     "khuyen-mai": {
+        "title": "Khuyến mãi",
+        "nav": "menu",
+        "url_style": [
+            {               
             }
         ],
         "url_script": [
