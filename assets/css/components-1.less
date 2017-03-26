@@ -1,0 +1,71 @@
+@import "library.less";
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+.red-btn{
+font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background: #e63024;
+    border-radius: 25px;
+    text-transform: uppercase;
+    height: 40px;
+    width: 165px;
+    line-height: 34px;
+    padding: 0;
+    border: 3px solid #e63024;
+}
+.red-btn:hover{
+	border: 3px solid #e63024;    color: #0b0b0b;background: #fff;
+}
+.wrapper-menu-banner{
+	background:#151515;
+	color: #464646;
+
+	.title-great{
+		text-align: center;
+	    font-size: 60px;
+	    color: #fff;
+	}
+	.menu-widget{
+		margin-top:-39px;
+		padding-bottom: 40px;
+	}
+	.bottom-line{
+		margin: 10px auto 16px;
+		width: 112px;
+		height: 2px;
+		background: #fff;
+		display: block;
+	}
+	.description{
+	    font-size: 14px;
+	    width: 85%;
+	    text-align: center;
+	    display: block;
+	    margin: 0 auto 28px;
+	}
+	.menu-left-col{
+		.btn-action{
+			text-align: center;
+		}
+	}
+	.menu-right-col{
+		.btn-action{
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.red-btn{
+			margin: 0 12px;
+		}
+	}
+}

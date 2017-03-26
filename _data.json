@@ -10,5 +10,18 @@
             {
             }
         ]
+    },
+    "menu": {
+        "title": "Menu",
+        "nav": "menu",
+        "url_style": [
+            {
+                "src": "/assets/css/component-1.css"
+            }
+        ],
+        "url_script": [
+            {
+            }
+        ]
     }
 }
