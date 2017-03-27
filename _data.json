@@ -23,9 +23,34 @@
             }
         ]
     },
-     "khuyen-mai": {
+    "khuyen-mai": {
         "title": "Khuyến mãi",
         "nav": "menu",
+        "url_style": [
+            {               
+            }
+        ],
+        "url_script": [
+            {
+            }
+        ]
+    },
+    "blog": {
+        "title": "blog",
+        "nav": "blog",
+        "url_style": [
+            {               
+            }
+        ],
+        "url_script": [
+            {
+                "src": "assets/js/pages.js"
+            }
+        ]
+    },
+    "404": {
+        "title": "404",
+        "nav": "404",
         "url_style": [
             {               
             }
