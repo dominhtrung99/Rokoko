@@ -59,5 +59,28 @@
             {
             }
         ]
+    },
+    "dat-ban": {
+        "title": "Đặt bàn",
+        "nav": "dat-ban",
+        "url_style": [
+            {  
+                "src": "assets/css/bootstrap-datetimepicker.min.css"       
+            }
+        ],
+        "url_script": [
+            {
+                "src": "assets/js/moment-with-locales.js"
+            },
+            {
+                "src": "assets/js/bootstrap-datetimepicker.min.js"
+            },
+            {
+                "src" : "assets/js/bootstrap-timepicker.js"
+            },
+            {
+                "src": "assets/js/customise.js"
+            }
+        ]
     }
 }
