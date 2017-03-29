@@ -48,6 +48,45 @@
             }
         ]
     },
+    "blog-detail": {
+        "title": "blog-detail",
+        "nav": "blog-detail",
+        "url_style": [
+            {               
+            }
+        ],
+        "url_script": [
+            {
+                "src": "assets/js/pages.js"
+            }
+        ]
+    },
+    "franchise": {
+        "title": "franchise",
+        "nav": "franchise",
+        "url_style": [
+            {               
+            }
+        ],
+        "url_script": [
+            {
+                "src": "assets/js/pages.js"
+            }
+        ]
+    },
+    "lienhe": {
+        "title": "lienhe",
+        "nav": "lienhe",
+        "url_style": [
+            {               
+            }
+        ],
+        "url_script": [
+            {
+                "src": "assets/js/pages.js"
+            }
+        ]
+    },
     "404": {
         "title": "404",
         "nav": "404",
