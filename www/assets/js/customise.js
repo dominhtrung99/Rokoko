@@ -1,8 +1,8 @@
 $(function($){
     $('#datetimepicker1').datetimepicker({
-    	defaultDate: "11/1/2013"
+    	format: 'DD/MM/YYYY'
     });
-    $('#datetimepicker2').datetimepicker({
-    	defaultDate: "11/1/2013"
-    });
+
+     $('#timepicker1').timepicker();
+    
 });
