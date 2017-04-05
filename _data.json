@@ -121,5 +121,17 @@
                 "src": "assets/js/customise.js"
             }
         ]
+    },
+    "khong-gian": {
+        "title": "Không gian",
+        "nav": "khong-gian",
+        "url_style": [
+            {               
+            }
+        ],
+        "url_script": [
+            {                
+            }
+        ]
     }
 }

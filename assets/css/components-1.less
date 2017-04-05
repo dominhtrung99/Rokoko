@@ -484,6 +484,102 @@
     padding: 4px;
 }
 
+.space-wrapper{
+    .space-header{
+        padding: 65px 0;
+        background: url(../images/background/bg-khong-gian.jpg) no-repeat;
+        text-align: center;
+        background-size: cover;
+
+        .heading{
+            font-family: 'GreatVibes';
+            font-size: 80px;
+            color: #fff;
+            font-weight: 400;
+        }
+        .sub-heading {
+            text-align: center;
+            font-size: 16px;
+            width: 43%;
+            display: block;
+            margin: 0 auto;
+        }
+
+    }
+    .space-content{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        .item-gird{
+            margin-bottom: 30px;
+            position: relative;
+
+            &:hover {
+                .item-content{
+                    opacity: 1;
+                }
+                
+            }
+
+            img{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+        .item-content{
+            transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            bottom: 15px;
+            right: 15px;
+            background: rgba(230,48,36,0.9);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 30px;
+            text-align: center;
+            opacity: 0;
+
+            .title{
+                font-size: 16px;
+                font-weight: bold;
+                font-family: "georgia";
+            }
+            .separator{
+                 display: block;
+                max-width: 175px;
+                    margin: 0 auto 15px;
+            }
+            .link-detail-wrap{
+
+            }
+            .date{
+                font-size: 14px;
+                color: #fff;
+                font-family: "georgia";
+            }
+            .btn-detail{
+                    border: 3px solid #fff;
+                    border-radius: 10px;
+                    padding: 5px 10px;
+                    /* margin: 15px; */
+                    font-size: 14px;
+                    font-family: "UTM-Avo";
+                    color: #fff;
+                    text-transform: uppercase;
+                    display: inline-block;
+            }
+        }
+    }
+    
+    
+}
+
+
 @media (min-width: 767px) {
     .bootstrap-timepicker-widget.modal {
         width: 200px;
