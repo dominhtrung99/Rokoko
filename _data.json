@@ -4,10 +4,21 @@
         "nav": "index",
         "url_style": [
             {
+                "src": "assets/css/bootstrap-datetimepicker.min.css"    
             }
         ],
         "url_script": [
             {
+                "src": "assets/js/moment-with-locales.js"
+            },
+            {
+                "src": "assets/js/bootstrap-datetimepicker.min.js"
+            },
+            {
+                "src" : "assets/js/bootstrap-timepicker.js"
+            },
+            {
+                "src": "assets/js/customise.js"
             }
         ]
     },
@@ -130,7 +141,32 @@
             }
         ],
         "url_script": [
-            {                
+            {
+            "src": "assets/js/customise.js"             
+            }
+        ]
+    },
+    "search": {
+        "title": "Tìm kiếm",
+        "nav": "search",
+        "url_style": [
+            {               
+            }
+        ],
+        "url_script": [
+            {          
+            }
+        ]
+    },
+    "search-not-found": {
+        "title": "Tìm kiếm",
+        "nav": "search",
+        "url_style": [
+            {               
+            }
+        ],
+        "url_script": [
+            {          
             }
         ]
     }
