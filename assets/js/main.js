@@ -26,7 +26,13 @@ jQuery(function($){
 
         $(".menu-mobile").on("click", function(e){
             e.stopPropagation();
-        })    
+        })
+
+        $('#datetimepicker1').datetimepicker();
+
+        $('#datetimepicker3').datetimepicker({
+            format: 'LT'
+        });
     };
 
     /*=======================================
@@ -52,3 +58,4 @@ jQuery(function($){
     ======================================*/
 
 });
+
