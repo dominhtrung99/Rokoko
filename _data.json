@@ -126,9 +126,6 @@
                 "src": "assets/js/bootstrap-datetimepicker.min.js"
             },
             {
-                "src" : "assets/js/bootstrap-timepicker.js"
-            },
-            {
                 "src": "assets/js/customise.js"
             }
         ]

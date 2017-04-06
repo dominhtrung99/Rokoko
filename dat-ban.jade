@@ -1,52 +1,50 @@
 section.wrapper-booking
 	.container.booking-content
 		.row
-			.col-md-5.col-md-offset-2
-				.oder-right
-					.main-right
-						.main-oder-right
-							h3.title-oder Đặt bàn ngay
-							p.sub-title 
-								span &#9632;
-								| Vui lòng điền thông tin bên dưới
-							.wrapper-form-oder
-								form
-									.main-form-oder
-										.item-form-oder-left
-											.item-form-oder.date.input-group#datetimepicker1
-												input.input-oder(type="text" , placeholder="DD/MM/YY")
-												span.input-group-addon
-													span.glyphicon.glyphicon-calendar
-										.item-form-oder-right
-											.item-form-oder.date.input-group.bootstrap-timepicker.timepicker
-												input.input-oder(type="text" placeholder="HH : MM")#timepicker1
-												span.input-group-addon
-													span.glyphicon.glyphicon-time
-									.main-form-oder.main-form-oder-1
-										.item-form-oder-right
-											.item-form-oder
-												input.input-oder(type="text" placeholder="1")
-												i.icons-oder.fa.fa-user
-										.item-form-oder-left
-											.item-form-oder
-												input.input-oder(type="text" placeholder="(123) 456 78 90")
-												i.icons-oder.fa.fa-phone
-									.main-form-oder.main-form-oder-2
+			.col-md-5.col-md-offset-2.col-sm-6.col-xs-12
+				.oder-right					
+					.main-oder-right
+						h3.title-oder Đặt bàn ngay
+						p.sub-title 
+							span &#9632;
+							| Vui lòng điền thông tin bên dưới
+						.wrapper-form-oder
+							form
+								.main-form-oder
+									.item-form-oder-left
+										.item-form-oder.date.input-group#datetimepicker1
+											input.input-oder(type="text" , placeholder="DD/MM/YY")
+											span.input-group-addon
+												span.glyphicon.glyphicon-calendar
+									.item-form-oder-right
+										.item-form-oder.date.input-group.bootstrap-timepicker.timepicker
+											input#datetimepicker3.input-oder(type="text" placeholder="HH : MM")
+											i.icons-oder.glyphicon.glyphicon-time
+								.main-form-oder.main-form-oder-1
+									.item-form-oder-right
 										.item-form-oder
-											input.input-oder(type="text" placeholder="Tên khách hàng")
+											input.input-oder(type="text" placeholder="1")
 											i.icons-oder.fa.fa-user
-									.main-form-oder.main-form-oder-3
+									.item-form-oder-left
 										.item-form-oder
-											input.input-oder(type="text" placeholder="Email")
-											i.icons-oder.fa.fa-envelope-o
-									p.notice 
-										span (*) 
-										| Rokoko bảo đảm giữ bí mật thông tin khách hàng
-									.wrapper-btn-oder
-										a.btn-rokoko(href="#") đặt bàn
-
+											input.input-oder(type="text" placeholder="(123) 456 78 90")
+											i.icons-oder.fa.fa-phone
+								.main-form-oder.main-form-oder-2
+									.item-form-oder
+										input.input-oder(type="text" placeholder="Tên khách hàng")
+										i.icons-oder.fa.fa-user
+								.main-form-oder.main-form-oder-3
+									.item-form-oder
+										input.input-oder(type="text" placeholder="Email")
+										i.icons-oder.fa.fa-envelope-o
+								p.notice 
+									span (*) 
+									| Rokoko bảo đảm giữ bí mật thông tin khách hàng
+								.wrapper-btn-oder
+									a.btn-rokoko(href="#") đặt bàn
+					.clearboth
 			
-			.col-md-3.col-md-offset-1
+			.col-md-3.col-md-offset-1.col-sm-6.col-xs-12
 				.openning-wr
 					.black-board-content
 						.heading Giờ mở cửa
