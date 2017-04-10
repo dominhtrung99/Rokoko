@@ -85,6 +85,19 @@
             }
         ]
     },
+    "franchise": {
+        "title": "franchise 2",
+        "nav": "franchise-2",
+        "url_style": [
+            {               
+            }
+        ],
+        "url_script": [
+            {
+              
+            }
+        ]
+    },
     "lienhe": {
         "title": "lienhe",
         "nav": "lienhe",
