@@ -246,13 +246,16 @@
 
 .wrapper-promotion .promotion-content section .promotion-box .promotion-box-wr .promotion-box-content .promotion-title .great-title {
     font-family: 'GreatVibes';
-    font-size: 48px
+    font-size: 48px;
+    text-transform: none;
+    margin-bottom: 15px
 }
 
 .wrapper-promotion .promotion-content section .promotion-box .promotion-box-wr .promotion-box-content .promotion-title .des {
     font-size: 28px;
     line-height: 42px;
-    margin: 10px 0
+    margin: 10px 0;
+    font-weight: bold
 }
 
 .wrapper-promotion .promotion-content section .promotion-des {
@@ -274,7 +277,7 @@
 }
 
 .wrapper-booking {
-    margin: 100px
+    margin: 100px 0
 }
 
 .wrapper-booking .booking-content .oder-right .main-form-oder-2 {
@@ -647,6 +650,7 @@
 }
 
 .space-wrapper #spaceModel .title {
+    font-weight: bold;
     font-size: 16px;
     font-family: "georgia"
 }
@@ -788,7 +792,7 @@
 
 .search-wrapper .form-search-wrapper form #srch-term {
     line-height: 1em;
-    padding: 13px 0;
+    padding: 0;
     width: 500px;
     border-left: none;
     padding-left: 0;
@@ -826,6 +830,123 @@
 .search-wrapper .search-content .article .thumb-wrapper img {
     width: 100%;
     height: auto
+}
+
+.wrapper-franchise-banner {
+    background: url(../images/background/banner-franchise.jpg) no-repeat;
+    background-size: cover;
+    padding: 68px 0;
+    text-align: center
+}
+
+.wrapper-franchise-banner .content-banner .title {
+    font-family: "georgia";
+    font-size: 32px;
+    font-style: italic
+}
+
+.wrapper-franchise-banner .content-banner .cta-btn-wr {
+    margin: 20px 0
+}
+
+.wrapper-franchise-banner .content-banner .cta-btn {
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+    padding: 14px 38px;
+    background: #e71919
+}
+
+.wrapper-franchise-banner .content-banner .address {
+    font-family: "georgia";
+    color: #fff;
+    opacity: 0.6;
+    font-size: 16px;
+    filter: alpha(opacity=60)
+}
+
+.wrapper-franchise-banner .content-banner .hotline {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "georgia"
+}
+
+.wrapper-franchise .franchise-content {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    color: #747474;
+    font-size: 14px
+}
+
+.wrapper-franchise .franchise-content img {
+    width: 100%;
+    height: auto
+}
+
+.wrapper-franchise .franchise-content .see-more {
+    font-family: "georgia";
+    text-align: left;
+    display: inline-block;
+    float: left;
+    color: #e63024;
+    text-decoration: underline;
+    font-size: 14px
+}
+
+.wrapper-franchise .franchise-content .see-more span {
+    margin-right: 5px
+}
+
+.wrapper-franchise .franchise-content .section-1 {
+    margin-bottom: 50px
+}
+
+.wrapper-franchise .franchise-content .section-1 .title-wr {
+    text-align: center
+}
+
+.wrapper-franchise .franchise-content .section-1 .separator {
+    display: block;
+    max-width: 175px;
+    margin: 0 auto 15px
+}
+
+.wrapper-franchise .franchise-content .section-2 {
+    margin-bottom: 50px
+}
+
+.wrapper-franchise .franchise-content .section-3 {
+    margin-bottom: 50px
+}
+
+.wrapper-franchise .franchise-content .section-3 .title-wr {
+    text-align: center
+}
+
+.wrapper-franchise .franchise-content .section-3 .title-wr .title {
+    padding: 0 38px
+}
+
+.wrapper-franchise .franchise-content .title-wr .title {
+    margin-top: 0;
+    color: #e63024;
+    font-size: 44px;
+    font-family: 'GreatVibes'
+}
+
+.wrapper-franchise .franchise-content .title-wr .sub-title {
+    color: #0b0b0b;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px
+}
+
+.wrapper-franchise .franchise-content .title-wr .des {
+    text-align: left;
+    color: #747474
 }
 
 @media (min-width:767px) {

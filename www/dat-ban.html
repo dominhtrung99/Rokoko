@@ -11,6 +11,7 @@
     <link type="text/css" rel="stylesheet" href="assets/css/font-awesome.css">
     <!-- LIBRARY CSS-->
     <link type="text/css" rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/libs/bootstrap-datepicker/css/bootstrap-datetimepicker.min.css">
     <link type="text/css" rel="stylesheet" href="assets/libs/slick-slider/slick.css">
     <link type="text/css" rel="stylesheet" href="assets/libs/slick-slider/slick-theme.css">
     <!-- STYLE CSS-->
@@ -106,53 +107,51 @@
                 <section class="wrapper-booking">
                     <div class="container booking-content">
                         <div class="row">
-                            <div class="col-md-5 col-md-offset-2">
+                            <div class="col-md-5 col-md-offset-2 col-sm-6 col-xs-12">
                                 <div class="oder-right">
-                                    <div class="main-right">
-                                        <div class="main-oder-right">
-                                            <h3 class="title-oder">Đặt bàn ngay</h3>
-                                            <p class="sub-title"> <span>&#9632;</span>Vui lòng điền thông tin bên dưới</p>
-                                            <div class="wrapper-form-oder">
-                                                <form>
-                                                    <div class="main-form-oder">
-                                                        <div class="item-form-oder-left">
-                                                            <div id="datetimepicker1" class="item-form-oder date input-group">
-                                                                <input type="text" placeholder="DD/MM/YY" class="input-oder"><span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="item-form-oder-right">
-                                                            <div class="item-form-oder date input-group bootstrap-timepicker timepicker">
-                                                                <input type="text" placeholder="HH : MM" id="timepicker1" class="input-oder"><span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
-                                                            </div>
+                                    <div class="main-oder-right">
+                                        <h3 class="title-oder">Đặt bàn ngay</h3>
+                                        <p class="sub-title"> <span>&#9632;</span>Vui lòng điền thông tin bên dưới</p>
+                                        <div class="wrapper-form-oder">
+                                            <form>
+                                                <div class="main-form-oder">
+                                                    <div class="item-form-oder-left">
+                                                        <div id="datetimepicker1" class="item-form-oder date input-group">
+                                                            <input type="text" placeholder="DD/MM/YY" class="input-oder"><span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
                                                         </div>
                                                     </div>
-                                                    <div class="main-form-oder main-form-oder-1">
-                                                        <div class="item-form-oder-right">
-                                                            <div class="item-form-oder">
-                                                                <input type="text" placeholder="1" class="input-oder"><i class="icons-oder fa fa-user"></i></div>
-                                                        </div>
-                                                        <div class="item-form-oder-left">
-                                                            <div class="item-form-oder">
-                                                                <input type="text" placeholder="(123) 456 78 90" class="input-oder"><i class="icons-oder fa fa-phone"></i></div>
-                                                        </div>
+                                                    <div class="item-form-oder-right">
+                                                        <div class="item-form-oder date input-group bootstrap-timepicker timepicker">
+                                                            <input id="datetimepicker3" type="text" placeholder="HH : MM" class="input-oder"><i class="icons-oder glyphicon glyphicon-time"></i></div>
                                                     </div>
-                                                    <div class="main-form-oder main-form-oder-2">
+                                                </div>
+                                                <div class="main-form-oder main-form-oder-1">
+                                                    <div class="item-form-oder-right">
                                                         <div class="item-form-oder">
-                                                            <input type="text" placeholder="Tên khách hàng" class="input-oder"><i class="icons-oder fa fa-user"></i></div>
+                                                            <input type="text" placeholder="1" class="input-oder"><i class="icons-oder fa fa-user"></i></div>
                                                     </div>
-                                                    <div class="main-form-oder main-form-oder-3">
+                                                    <div class="item-form-oder-left">
                                                         <div class="item-form-oder">
-                                                            <input type="text" placeholder="Email" class="input-oder"><i class="icons-oder fa fa-envelope-o"></i></div>
+                                                            <input type="text" placeholder="(123) 456 78 90" class="input-oder"><i class="icons-oder fa fa-phone"></i></div>
                                                     </div>
-                                                    <p class="notice"> <span>(*) </span>Rokoko bảo đảm giữ bí mật thông tin khách hàng</p>
-                                                    <div class="wrapper-btn-oder"><a href="#" class="btn-rokoko">đặt bàn</a></div>
-                                                </form>
-                                            </div>
+                                                </div>
+                                                <div class="main-form-oder main-form-oder-2">
+                                                    <div class="item-form-oder">
+                                                        <input type="text" placeholder="Tên khách hàng" class="input-oder"><i class="icons-oder fa fa-user"></i></div>
+                                                </div>
+                                                <div class="main-form-oder main-form-oder-3">
+                                                    <div class="item-form-oder">
+                                                        <input type="text" placeholder="Email" class="input-oder"><i class="icons-oder fa fa-envelope-o"></i></div>
+                                                </div>
+                                                <p class="notice"> <span>(*) </span>Rokoko bảo đảm giữ bí mật thông tin khách hàng</p>
+                                                <div class="wrapper-btn-oder"><a href="#" class="btn-rokoko">đặt bàn</a></div>
+                                            </form>
                                         </div>
                                     </div>
+                                    <div class="clearboth"></div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-md-offset-1">
+                            <div class="col-md-3 col-md-offset-1 col-sm-6 col-xs-12">
                                 <div class="openning-wr">
                                     <div class="black-board-content">
                                         <div class="heading">Giờ mở cửa</div><img src="assets/images/background/line-on-black-board.png" class="line">
@@ -292,7 +291,9 @@
     </div>
     <!-- LIBRARY JS-->
     <script src="assets/libs/jquery/jquery-3.1.1.min.js"></script>
+    <script src="assets/libs/moment/js/moment.min.js"></script>
     <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/libs/bootstrap-datepicker/js/bootstrap-datetimepicker.min.js"></script>
     <script src="assets/libs/slick-slider/slick.min.js"></script>
     <script src="assets/libs/isotope/isotope.pkgd.min.js"></script>
     <!-- MAIN JS-->
@@ -300,7 +301,6 @@
     <!-- LOADING JS FOR PAGE-->
     <script src="assets/js/moment-with-locales.js"></script>
     <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
-    <script src="assets/js/bootstrap-timepicker.js"></script>
     <script src="assets/js/customise.js"></script>
 </body>
 
