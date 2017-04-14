@@ -62,7 +62,6 @@ $(function($){
 			owl.trigger('refresh.owl.carousel');
 			$(target).modal();
 
-
 			//showItemPopup(target);
 
 			// var index = $( ".item-gird-wr" ).index( target );

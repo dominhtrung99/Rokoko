@@ -149,6 +149,8 @@
         padding: 0 30px;
         font-size: 13px;
         color: #898989;
+        z-index: 10;
+        background-color: transparent;
     }
 
     .input-oder::-webkit-input-placeholder {
@@ -666,6 +668,7 @@
         width: 100%;
         position: relative;
         display: block;
+        overflow: hidden;
         &:before {
             content: "";
             display: block;
@@ -831,6 +834,9 @@
         .links-img-blog {
             margin-bottom: 30px;
             &:before {
+                display: none;
+            }
+            &:after {
                 display: none;
             }
             img {
