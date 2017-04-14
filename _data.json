@@ -127,7 +127,7 @@
         "title": "Đặt bàn",
         "nav": "dat-ban",
         "url_style": [
-            {  
+            {
                 "src": "assets/css/bootstrap-datetimepicker.min.css"       
             }
         ],
@@ -147,12 +147,19 @@
         "title": "Không gian",
         "nav": "khong-gian",
         "url_style": [
-            {               
+            {
+                "src": "assets/css/owl.carousel.css"
+            },
+            {
+                "src": "assets/css/owl.theme.default.css"
             }
         ],
         "url_script": [
             {
             "src": "assets/js/customise.js"             
+            },
+            {
+            "src": "assets/js/owl.carousel.min.js"             
             }
         ]
     },

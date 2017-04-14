@@ -581,7 +581,7 @@
             }
         }
     }
-    #spaceModel {
+    .space-model {
         color: #424242;
         .modal-dialog {
             width: 1170px;
@@ -589,7 +589,7 @@
         .description {
             font-size: 14px;
         }
-        .title {
+        .title_model {
             font-weight: bold;
             font-size: 16px;
             font-family: "georgia";
@@ -598,6 +598,12 @@
             border-radius: 0;
             .modal-body {
                 padding: 0;
+            }
+            .owl-carousel{
+                &.owl-drag{
+                     .owl-item{
+                    }
+                }               
             }
             .img-wr {
                 position: relative;
@@ -613,7 +619,7 @@
                     background: rgba(31, 31, 31, 0.5);
                     padding: 30px 15px;
                     /* width: 14px; */
-                    font-size: 15px;
+                    font-size: 13px;
                     color: #fff;
                     /* height: 15px; */
                     /* font-family: "UTM Avo"; */
@@ -622,7 +628,7 @@
                     left: 10px;
                 }
                 &.next-btn-wr {
-                    right: 10px;
+                    right: 15px;
                 }
             }
             .content-wr {
@@ -657,6 +663,8 @@
             img {
                 display: inline-block;
                 padding-right: 10px;
+                max-width:100%;
+                width:auto;
             }
             .text {
                 color: #e63024;
@@ -720,6 +728,7 @@
                 padding-left: 0;
                 font-weight: bold;
                 height: 100%;
+                font-family: "georgia";
             }
             #srch-term:focus {
                 -webkit-box-shadow: none;
@@ -739,6 +748,10 @@
             display: block;
             font-weight: bold;
             font-family: "georgia";
+
+            &:hover{
+            color:#e63024;
+            }
         }
         .description {
             font-size: 14px;
